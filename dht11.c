@@ -58,9 +58,9 @@ void dht11_read(void) ;
 
 
 /*+--------------------------------------------------------------+
-  | Function name 	: p_gps_server
+  | Function name 	: p_dht11
   | Parameters    	:  
-  | Description   	: wait for gps frame
+  | Description   	: Driver for collecting Temp and Humidity
   | Description   	:  
   * Return			: TIMEOUT if not received character "#" after 10 seconds of waiting
   * 				: ACK     if only one character "#" has been received

@@ -194,6 +194,7 @@ void *p_screen_display_server(void * arg)
 		printf ("%s\t\t|         DewNot: %03d\ %\n",str_gps_longitude,0) ;
 		// last line
 		printf ("----------------------------------------------------------------\n") ;
+		
 
 		int i ;
 		for (i=0; i<NB_LG_DEBUG; i++)
